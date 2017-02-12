@@ -1,0 +1,166 @@
+{
+  "project_info": {
+    "project_number": "493270359918",
+    "firebase_url": "https://test-908e4.firebaseio.com",
+    "project_id": "test-908e4",
+    "storage_bucket": "test-908e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493270359918:android:f97e780cdf955e24",
+        "android_client_info": {
+          "package_name": "com.example.zeth.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493270359918-gap9e2uim3mm31pn2sk2kme1jum1tbht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJuuJKOMGWLJWDElwoB_jpO0Z4MMPC99E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493270359918:android:08f4b40426c3f770",
+        "android_client_info": {
+          "package_name": "com.xenium.zeth.testscroll"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493270359918-gap9e2uim3mm31pn2sk2kme1jum1tbht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJuuJKOMGWLJWDElwoB_jpO0Z4MMPC99E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493270359918:android:a072d0a294881279",
+        "android_client_info": {
+          "package_name": "com.shalam.zeth.chateazy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493270359918-gap9e2uim3mm31pn2sk2kme1jum1tbht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJuuJKOMGWLJWDElwoB_jpO0Z4MMPC99E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493270359918:android:e09c6149ad58c908",
+        "android_client_info": {
+          "package_name": "com.chatz.zeth.chatz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493270359918-gap9e2uim3mm31pn2sk2kme1jum1tbht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJuuJKOMGWLJWDElwoB_jpO0Z4MMPC99E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493270359918:android:515df1f9a7a8d89b",
+        "android_client_info": {
+          "package_name": "zeth48.openlib"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493270359918-gap9e2uim3mm31pn2sk2kme1jum1tbht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJuuJKOMGWLJWDElwoB_jpO0Z4MMPC99E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
