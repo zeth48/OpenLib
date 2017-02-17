@@ -24,6 +24,7 @@
         android:layout_alignParentTop="true"
         android:hint="Password"
         android:layout_marginTop="300dp"
+        android:inputType="textPassword"
         android:layout_centerHorizontal="true"/>
 
     <TextView

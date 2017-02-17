@@ -4,49 +4,134 @@
     android:layout_height="match_parent"
     tools:context="zeth48.openlib.FragmentOne">
 
-    <!-- TODO: Update blank fragment layout -->
-<RelativeLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center_horizontal">
-
-
-    <EditText
-        android:layout_width="250dp"
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/name"
-        android:hint="Name"
-        android:layout_marginTop="75dp"/>
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Details"
+            android:textStyle="normal|bold"
+            android:textSize="30sp"
+            android:id="@+id/details"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
 
 
-    <EditText
-        android:layout_width="250dp"
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/book_name"
-        android:hint="Title"
-        android:layout_marginTop="135dp"/>
+        android:text="Book Title"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="80dp"
+        android:gravity="center_horizontal"
+        android:textStyle="normal|bold"
+        android:textSize="18sp" />
 
     <EditText
-        android:layout_width="250dp"
+        android:id="@+id/title"
+        android:layout_width="270dp"
         android:layout_height="wrap_content"
-        android:id="@+id/Genre"
-        android:hint="Genre"
-        android:layout_marginTop="195dp"/>
-
-    <EditText
-        android:layout_width="300dp"
-        android:layout_height="150dp"
-        android:id="@+id/descp"
-        android:hint="Description"
-        android:layout_marginTop="255dp"/>
-
-    <EditText
-        android:layout_width="250dp"
-        android:layout_height="wrap_content" />
+        android:hint="Book Title"
+        android:layout_below="@id/text_title"
+        android:layout_marginLeft="50dp" />
 
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_author"
+            android:textStyle="normal|bold"
+            android:text="Author"
+            android:layout_below="@id/title"
+            android:layout_marginLeft="50dp"
+            android:textSize="18sp"
+            />
+
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:hint="Author"
+            android:id="@+id/author"
+            android:layout_below="@id/text_author"
+            android:layout_marginLeft="50dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_num"
+            android:layout_below="@id/author"
+            android:text="Phone Number"
+            android:layout_marginLeft="50dp"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/num"
+            android:layout_below="@id/text_num"
+            android:inputType="phone"
+            android:ems="10"
+            android:hint="Phone Number"
+            android:layout_marginLeft="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_genre"
+            android:layout_below="@id/num"
+            android:text="Genre"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:layout_marginLeft="50dp"/>
+
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:hint="Genre"
+            android:layout_below="@id/text_genre"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/genre"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_descrp"
+            android:layout_below="@id/genre"
+            android:text="Description"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:layout_marginLeft="50dp"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:hint="Description"
+            android:layout_below="@id/text_descrp"
+            android:id="@+id/descrp"
+            android:layout_marginLeft="50dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload and Post"
+            android:layout_below="@id/descrp"
+            android:layout_marginLeft="100dp"
+            android:id="@+id/upload" />
 
 
-</RelativeLayout>
+
+    </RelativeLayout>
+
 
 </FrameLayout>
