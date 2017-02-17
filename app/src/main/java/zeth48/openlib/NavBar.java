@@ -17,7 +17,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 public class NavBar extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener, FragmentOne.OnFragmentInteractionListener, FragmentTwo.OnFragmentInteractionListener{
+        implements NavigationView.OnNavigationItemSelectedListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -126,8 +126,8 @@ public class NavBar extends AppCompatActivity
         return true;
     }
 
-    @Override
-    public void onFragmentInteraction(Uri uri) {
+   // @Override
+   // public void onFragmentInteraction(Uri uri) {
 
-    }
+   // }
 }
