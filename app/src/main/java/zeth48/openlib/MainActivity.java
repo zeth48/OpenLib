@@ -24,7 +24,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
 
     private EditText email1;
     private EditText pass;
-   // private ProgressDialog progressDialog;
+    private ProgressDialog progressDialog;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,18 +45,12 @@ public class MainActivity extends Activity implements View.OnClickListener{
             firebaseAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                 @Override
                 public void onComplete(@NonNull Task<AuthResult> task) {
-                //    progressDialog=new ProgressDialog(getApplicationContext());
-                //    progressDialog.setMessage("Signing In...");
-                   // progressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
-                 //   progressDialog.setCancelable(true);
-                 //   progressDialog.setIndeterminate(true);
-                  //  progressDialog.setProgress(0);
-                 //   progressDialog.show();
+
                     if (task.isSuccessful()) {
-                        Intent intent = new Intent(getApplicationContext(), NavBar.class);
+                       // Intent intent = new Intent(getApplicationContext(), NavBar.class);
                         Toast.makeText(getApplicationContext(), "Signed In", Toast.LENGTH_SHORT).show();
                        // progressDialog.dismiss();
-                        startActivity(intent);
+                       // startActivity(intent);
                     } else {
                         Toast.makeText(getApplicationContext(), "Enter Correct Credentials.", Toast.LENGTH_SHORT).show();
                     }

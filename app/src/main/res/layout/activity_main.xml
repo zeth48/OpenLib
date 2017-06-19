@@ -12,10 +12,13 @@
         android:id="@+id/email"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
         android:hint="Email"
         android:layout_marginTop="250dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:imeOptions="actionNext"
+        />
 
     <EditText
         android:id="@+id/password"
@@ -25,7 +28,8 @@
         android:hint="Password"
         android:layout_marginTop="300dp"
         android:inputType="textPassword"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:imeOptions="actionGo"/>
 
     <TextView
         android:layout_width="wrap_content"
